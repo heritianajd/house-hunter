@@ -1,0 +1,129 @@
+
+#hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-repeat: round;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.title-search{
+    
+}
+
+.hero-title{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-title p{
+    color: #626687;
+    font-size: 16px;
+}
+
+.hero-search p{
+    font-size: 14px;
+    color: #888B97;
+}
+
+.title-search{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 104px;
+    padding-top: 182px;
+    padding-bottom: 104px;
+    padding-top: 182px;
+    max-width: 66%;
+    margin: auto;
+}
+
+.hero-search{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 32px;
+    border: 1px solid var(--neutral-300, #E0E3EB);
+    background: #FFF;   
+    padding: 4px 4px 4px 24px;
+}
+
+.search-place{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.search-button{
+    border-radius: 32px;
+    background: var(--green-500, #10B981);
+    display: flex;
+    gap: 4px;
+    border: none;
+    outline: none;
+    align-items: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #FFF;
+    cursor: pointer;
+}
+.search-button img{
+    width: 24px;
+    height: 24px;
+}
+
+.partnership-images{
+    display: flex;
+    column-gap: 32px;
+    flex-wrap: wrap;
+}
+
+.search-and-partnership{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero-partnarship p{
+    color: #888B97;
+    font-size: 16px;
+}
+
+.hero-section2{
+    display: flex;
+    align-items: end;
+    padding: 48px;
+    background-image: url(../pictures/home/hero-section2-background.png);
+    background-size: cover;
+    background-repeat: space;
+    border-radius: 0px 0px 0px 80px;
+}
+
+
+.hero-section2-container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.hero-section2-group{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 32px;
+    background: #FFF;
+    width: fit-content;
+    padding: 24px;
+}
+
+.group-text h5{
+    color: #1B1C57;
+    font-size: 16px;
+}
+.group-text p{
+    color: #68799F;
+    font-size: 12px;
+}
+
