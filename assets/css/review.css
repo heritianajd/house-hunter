@@ -1,0 +1,29 @@
+
+.review-title{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.review-title h1{
+    color: #1B1C57;
+    font-size: 32px;
+}
+
+.review-title h5{
+    color: #F59E0B;
+    font-size: 14px;
+}
+
+.line-h5-see{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.line-h5-see img{
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+}

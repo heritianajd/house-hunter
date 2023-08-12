@@ -1,20 +1,24 @@
 
 #recommendation{
-    max-width: 84%;
-    margin: auto;
     padding: 120px 0;
+    overflow: hidden;
 }
 
 .recommendation-head{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px!important;
+    max-width: 84%;
+    margin: auto;
 }
 
 #recommendation h5{
     color: #F59E0B;
     font-size: 14px;
     line-height: normal;
+    max-width: 84%;
+    margin: auto;
 }
 
 .recommendation-link{
@@ -74,4 +78,81 @@
 .prev-next-recommendation button:hover{
     background-color: #10B981;
     color: #FFFFFF;
+}
+
+/* recommendation-container */
+.recommendation-container{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    gap: 40px;
+    display: flex;
+    margin-left: 10%;
+    width: 100%;
+}
+
+.pic-house-recommendation .picture-house{
+    width: 100%;
+    height: auto;
+
+}
+
+.pic-house-recommendation{
+    position: relative;
+}
+
+.button-popular{
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 16px 16px;
+}
+
+.button-popular button{
+    padding: 8px 16px;
+    border-radius: 32px;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.house-price h3{
+    font-size: 24px;
+    color: #0E1735;
+    line-height: 32px;
+}
+.house-price p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #3C4563;
+}
+
+.house-owner {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.house-owner h4{
+    font-size: 18px;
+    color: #0E1735;
+    line-height: 22px; 
+}
+.house-owner p{
+    font-size: 14px;
+    color: #888B97;
+    line-height: 22px;
+} 
+
+.recommendation-row{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 28%;
+}
+
+.recommendation-house-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
