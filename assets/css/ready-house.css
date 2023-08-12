@@ -62,11 +62,9 @@
 .manager-description h5{
     color: #0E1735;
     font-size: 18px;
-    line-height: 24px;
 }
 .manager-description p{
     color: #888B97;
-    line-height: 24px;
     font-size: 16px;
 }
 .manager-contact{
@@ -120,7 +118,7 @@
     align-items: end;
     gap: 10px;
     width: 100%;
-    left: -40px;
+    left: -28px;
     bottom: -38px;
 }
 .div-picture-furniture img{

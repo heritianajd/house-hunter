@@ -1,4 +1,12 @@
 
+
+#see-review{
+    padding: 140px 0 120px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .review-title{
     display: flex;
     flex-direction: column;
@@ -20,10 +28,109 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    align-items: center;
 }
 .line-h5-see img{
     width: 32px;
     display: flex;
     justify-content: center;
     height: 1px;
+}
+
+.review-column{
+    display: flex;
+    gap: 56px;
+    margin: 0 -30%;
+}
+
+.review-column-text{
+    background-color: #FFF;
+    height: fit-content;
+}
+
+.review-culomn-container{
+    width: 50%;
+    position: relative;
+}
+
+.see-pic-house img{
+    width: 100%;
+}
+
+.review-column-text{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    border-radius: 16px;
+    /* background: #FFF; */
+}
+
+.desription-house-review{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.review-house-person{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.person-description-rev{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.number-star{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.desription-house-review h3{
+    color: #1B1C57;
+    font-size: 20px;
+}
+.desription-house-review p{
+    color: #626687;
+    font-size: 14px;
+}
+
+.person-description-rev h3{
+    color: #0E1735;
+    font-size: 14px;
+}
+.person-description-rev p{
+    color: #888B97;
+    font-size: 14px;    
+}
+ 
+.number-star span{
+    color: #3C4563;
+    font-size: 20px;
+}
+
+.button-points {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.button-points .point{
+    font-size: 56px;
+    color: #E0E3EB;
+}
+
+.button-points .point:hover{
+    color: #3C4563;
+    cursor: pointer;
 }
