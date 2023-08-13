@@ -1,0 +1,67 @@
+
+footer{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 120px 0;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 88px;
+    width: 80%;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-footer h3{
+    color: #1B1C57;
+    font-size: 16px;
+}
+
+.hunter-summary p{
+    color: #626687;
+    font-size: 14px;
+    max-width: 55%;
+}
+.hunter-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.list-menu-footer li{
+    list-style: none;
+}
+
+.list-menu-footer h4{
+    color: #0E1735;
+    font-size: 18px;
+}
+
+.list-menu-footer li{
+    color: #888B97;
+    font-size: 14px;
+}
+
+.list-menu-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.list-menu-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-social-media{
+    display: flex;
+    gap: 24px;
+    margin-top: 8px;
+}

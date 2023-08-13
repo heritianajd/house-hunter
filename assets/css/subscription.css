@@ -1,0 +1,114 @@
+
+#subscription-hunter{
+    width: 84%;
+    margin: auto;
+    height: 312px;
+    background-image: url(../pictures/subscription/background-subscription.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subcription-column1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    padding: 38px 48px;
+}
+.group1-pictures-column1{
+    display: flex;
+    align-items: center;
+    /* gap: 72px; */
+    gap: 28%;
+}
+.group2-pictures-column1{
+    display: flex;
+    align-items: flex-start;
+    /* gap: 92px; */
+    gap: 38%;
+
+}
+.subcription-column2{
+    width: 40%;
+    border-radius: 32px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.subcription-column2 h3{
+    color: #1B1C57;
+    font-size: 32px;
+    text-align: center;
+}
+
+.subsciption-form{
+    display: flex;
+    gap: 16px;
+    background: #FFF;
+    padding: 4px 4px 4px 24px;
+    justify-content: space-between;
+    border-radius: 32px;
+}
+
+.subsciption-input{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 60%;
+}
+
+.subsciption-input form{
+    width: 100%;
+}
+.subsciption-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.subsciption-input input::placeholder{
+    color: #888B97;
+    font-size: 14px;
+}
+
+.button-subsribe{
+    color: #FFF;
+    font-size: 14px;
+    padding: 12px;
+    padding: 12px 16px;
+    border-radius: 32px;
+    border: none;
+    background-color: #10B981;
+    outline: none;
+    cursor: pointer;
+}
+
+.subcription-column3{
+    width: 30%;
+    display: flex;
+    position: relative;
+}
+
+.group1-picture-column2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 29px;
+    position: absolute;
+    top: 44px;
+    left: 100px;
+}
+
+.group2-picture-column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    position: absolute;
+    bottom: 65px;
+    right: 56px;
+
+}

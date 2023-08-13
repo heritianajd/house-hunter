@@ -1,0 +1,146 @@
+#section-aour-partnersip{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.text-head-partnersip{
+    text-align: center;
+}
+
+.text-head-partnersip img{
+    width: 32px;
+    height: 1px;
+}
+
+.text-head-partnersip h5{
+    color: #F59E0B;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.text-head-partnersip h2{
+    color: #1B1C57;
+    font-size: 32px;
+    max-width: 30%;
+    margin: auto;
+}
+
+.text-head-partnersip button{
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 32px;
+    background-color: #10B981;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+/* partnersip-container */
+.partnersip-container{
+    display: flex;
+    max-width: 84%;
+    margin: auto;
+    gap: 68px;
+}
+
+.advice-tips-partnersip{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.advice-tips-row{
+    display: flex;
+    gap: 32px;
+}
+
+.advice-tips-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.picture-row-house{
+    width: 38%;
+    height: min-content;
+}
+
+.adivice-tips-people{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.adivice-tips-people span{
+    color: #3C4563;
+    font-size: 14px;
+}
+
+.advice-tips-text h3{
+    color: #1B1C57;
+    font-size: 18px;
+}
+
+.partnership-advice-duration{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.partnership-advice-duration span{
+    color: #888B97;
+    font-size: 14px;
+}
+
+
+.advice-tips-rigth{
+    width: 50%;
+}
+
+.advice-tips-row-rigth{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.adivice-people-rigth{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.advice-tips-text-rigth{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.adivice-people-rigth span{
+    color: #3C4563;
+    font-size: 14px;
+}
+
+.advice-tips-text-rigth h3{
+    color: #1B1C57;
+    font-size: 24px;
+}
+
+.advice-tips-text-rigth p{
+    color: #626687;
+    font-size: 14px;
+}
+
+.advice-duration-rigth{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 4px;
+}
+.advice-duration-rigth span{
+    color: #888B97;
+    font-size: 14px;
+}
