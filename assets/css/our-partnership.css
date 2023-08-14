@@ -50,6 +50,7 @@
     display: flex;
     flex-direction: column;
     gap: 44px;
+    position: relative;
 }
 
 .advice-tips-row{
@@ -143,4 +144,29 @@
 .advice-duration-rigth span{
     color: #888B97;
     font-size: 14px;
+}
+
+/* background-color4 */
+.background-color4{
+    background-color: #82FFE8;
+    width: 300px;
+    height: 300px;
+    opacity: 0.6;
+    filter: blur(60px);
+    position: absolute;
+    top: -260px;
+    left: -112px;
+    z-index: -2;
+}
+
+.background-color5{
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+    filter: blur(60px);
+    background-color: #C8FF82;
+    position: absolute;
+    z-index: -2;
+    left: -120px;
+    top: -100px;
 }

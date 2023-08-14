@@ -4,6 +4,7 @@ footer{
     width: 84%;
     margin: auto;
     padding: 120px 0;
+    position: relative;
 }
 
 .menu-footer{
@@ -64,4 +65,27 @@ footer{
     display: flex;
     gap: 24px;
     margin-top: 8px;
+}
+
+/*  background-color*/
+.background-color6{
+    background-color: #82FFE8;
+    width: 300px;
+    height: 300px;
+    opacity: 0.6;
+    filter: blur(60px);
+    position: absolute;
+    right: -100px;
+    z-index: -2;
+}
+
+.background-color7{
+    width: 300px;
+    height: 300px;
+    opacity: 0.4;
+    filter: blur(60px);
+    background-color: #C8FF82;
+    position: absolute;
+    right: 0;
+    z-index: -2;
 }

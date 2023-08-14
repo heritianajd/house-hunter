@@ -6,7 +6,7 @@
 }
 
 .title-search{
-    
+    position: relative;
 }
 
 .hero-title{
@@ -133,4 +133,17 @@
 
 .hero-background-image img{
     width: 100%;
+}
+
+.hero-background-color1{
+    width: 438px;
+    height: 494px;
+    background: #82F7FF;
+    opacity: 0.6;
+    filter: blur(60px);
+    border-radius: 50%;
+    position: absolute;
+    top: -200px;
+    left: -170px;
+    z-index: -2;
 }

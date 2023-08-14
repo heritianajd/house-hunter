@@ -124,3 +124,27 @@
 .div-picture-furniture img{
     
 }
+
+.background-color2{
+    width: 300px;
+    height: 300px;
+    opacity: 0.6;
+    filter: blur(60px);
+    background: #FF9882;
+    position: absolute;
+    top: -130px;
+    right: -100px;
+    z-index: -2;
+}
+
+.background-color3{
+    width: 300px;
+    height: 300px;
+    opacity: 0.6;
+    filter: blur(60px);
+    z-index: -2;
+    background: #FFFA82;
+    position: absolute;
+    top: -15px;
+    right: -100px;
+}

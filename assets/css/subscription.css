@@ -90,6 +90,9 @@
     width: 30%;
     display: flex;
     position: relative;
+    gap: 72px;
+    justify-content: center;
+    padding: 44px 40px 60px 40px;
 }
 
 .group1-picture-column2{
@@ -97,7 +100,7 @@
     flex-direction: column;
     align-items: end;
     gap: 29px;
-    position: absolute;
+    /* position: absolute; */
     top: 44px;
     left: 100px;
 }
@@ -107,7 +110,8 @@
     flex-direction: column;
     align-items: center;
     gap: 56px;
-    position: absolute;
+    justify-content: end;
+    /* position: absolute; */
     bottom: 65px;
     right: 56px;
 
