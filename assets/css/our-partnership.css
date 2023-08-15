@@ -36,7 +36,9 @@
     cursor: pointer;
     margin-top: 32px;
 }
-
+.text-head-partnersip button:hover{
+    background-color: #6dcaac;
+}
 /* partnersip-container */
 .partnersip-container{
     display: flex;
@@ -173,25 +175,37 @@
 
 @media (max-width:1116px) {
     .partnersip-container{
-        /* flex-direction: column-reverse; */
         max-width: 94%;
     }
-    /* .advice-tips-rigth{
-        width: 100%;
-    }
-    .advice-tips-partnersip{
-        width: 100%;
-    } */
 }
 
 @media (max-width:992px) {
     .partnersip-container{
         flex-direction: column-reverse;
+        gap: 40px;
     }
     .advice-tips-rigth{
         width: 100%;
     }
     .advice-tips-partnersip{
         width: 100%;
+    }
+
+    .text-head-partnersip h2{
+        max-width: 60%;
+        font-size: 24px;
+    }
+
+    .advice-tips-partnersip{
+        gap: 32px;
+    }
+}
+
+@media (max-width:576px) {
+    .advice-tips-text-rigth h3{
+        font-size: 20px;
+    }
+    .advice-tips-text h3{
+        font-size: 16px;
     }
 }

@@ -44,6 +44,7 @@
     padding: 12px 24px;
     text-decoration: none;
     color: #888B97;
+    font-size: 18px;
 }
 .recommendation-link a:hover{
     color: #10B981;
@@ -178,5 +179,24 @@
     }
     .prev-next-recommendation{
         gap: 24px;
+    }
+    .recommendation-link{
+        gap: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .recommendation-link a{
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .recommendation-link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .prev-next-recommendation button{
+        padding: 10px 15px;
+        font-size: 14px;
     }
 }

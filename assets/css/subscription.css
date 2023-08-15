@@ -21,13 +21,11 @@
 .group1-pictures-column1{
     display: flex;
     align-items: center;
-    /* gap: 72px; */
     gap: 28%;
 }
 .group2-pictures-column1{
     display: flex;
     align-items: flex-start;
-    /* gap: 92px; */
     gap: 38%;
 
 }
@@ -85,6 +83,9 @@
     outline: none;
     cursor: pointer;
 }
+.button-subsribe:hover{
+    background-color: #6dcaac;
+}
 
 .subcription-column3{
     width: 30%;
@@ -115,6 +116,22 @@
     bottom: 65px;
     right: 56px;
 
+}
+
+@media (max-width:1116px) {
+    .subcription-column2 h3{
+        font-size: 24px;
+    }
+
+    .subcription-column3{
+        gap: 40px;
+    }
+    .subcription-column1 {
+        padding: 38px 26px;
+    }
+    #subscription-hunter{
+        width: 94%;
+    }
 }
 
 @media (max-width:768px) {

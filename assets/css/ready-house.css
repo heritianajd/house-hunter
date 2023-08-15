@@ -79,6 +79,9 @@
     font-size: 14px;
     cursor: pointer;
 }
+.manager-contact:hover{
+    background-color: #6dcaac;
+}
 
 .video-house{
     position: relative;
@@ -99,6 +102,9 @@
     background: transparent;
     border: none;
     border-radius: 50%;
+}
+.video-button-house:hover{
+    cursor: pointer;
 }
 
 .big-house-image{
@@ -133,7 +139,7 @@
     background: #FF9882;
     position: absolute;
     top: -130px;
-    right: -100px;
+    right: 0px;
     z-index: -2;
 }
 
@@ -146,7 +152,7 @@
     background: #FFFA82;
     position: absolute;
     top: -15px;
-    right: -100px;
+    right: 0px;
 }
 
 @media (max-width:1116px) {
@@ -163,5 +169,31 @@
 @media (max-width:992px){
     #ready-sell{
         grid-template-columns: 1fr;
+    }
+
+    .your-dream-parag{
+        max-width: 90%;
+    }
+
+    .manager-ready{
+        max-width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .desription-house-review h3{
+        font-size: 16px!important;
+    }
+    .desription-house-review p{
+        font-size: 11px!important;
+    }
+    .person-description-rev h3 {
+        font-size: 12px!important;
+    }
+    .person-description-rev p{
+        font-size: 12px!important;
+    }
+    .number-star span{
+        font-size: 18px!important;
     }
 }

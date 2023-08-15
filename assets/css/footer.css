@@ -75,7 +75,7 @@ footer{
     opacity: 0.6;
     filter: blur(60px);
     position: absolute;
-    right: -100px;
+    right: 0px;
     z-index: -2;
 }
 

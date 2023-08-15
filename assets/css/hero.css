@@ -70,6 +70,9 @@
     width: 24px;
     height: 24px;
 }
+.search-button:hover{
+    background-color: #6dcaac;
+}
 
 .partnership-images{
     display: flex;
@@ -88,16 +91,6 @@
     font-size: 16px;
 }
 
-/* .hero-section2{
-    display: flex;
-    align-items: end;
-    padding: 48px;
-    background-image: url(../pictures/home/hero-section2-background.png);
-    background-size: cover;
-    background-repeat: space;
-    border-radius: 0px 0px 0px 80px;
-} */
-
 .hero-section2{
     width: 50%;
     position: relative;
@@ -107,7 +100,6 @@
 
 .hero-section2-group{
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 16px;
     position: absolute;
     bottom: 48px;
@@ -185,5 +177,11 @@
 }
 
 @media (max-width:768px){
-    
+    .hero-container-group{
+        padding: 14px;
+    }
+
+    .hero-container-group img{
+
+    }
 }
