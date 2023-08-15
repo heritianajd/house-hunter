@@ -102,6 +102,17 @@ header nav{
     font-size: 40px;
 }
 
+.toggle img{
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width:1366px){
+    header nav{
+        width: 95%;
+    }
+}
+
 @media (max-width:992px) {
     .toggle{
         display: block;
@@ -157,11 +168,17 @@ header nav{
         background: #3268813d;
     }
 
+    .open header nav{
+        background: none;
+    }
+
     header nav{
-        background-color: transparent;
+        /* background-color: transparent; */
+        /* background: #3268813d;
+        backdrop-filter: blur(5px);  */
     }
 }
 
 @media (max-width: 768px) {
-    
+
 }

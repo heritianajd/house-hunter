@@ -170,3 +170,28 @@
     left: -120px;
     top: -100px;
 }
+
+@media (max-width:1116px) {
+    .partnersip-container{
+        /* flex-direction: column-reverse; */
+        max-width: 94%;
+    }
+    /* .advice-tips-rigth{
+        width: 100%;
+    }
+    .advice-tips-partnersip{
+        width: 100%;
+    } */
+}
+
+@media (max-width:992px) {
+    .partnersip-container{
+        flex-direction: column-reverse;
+    }
+    .advice-tips-rigth{
+        width: 100%;
+    }
+    .advice-tips-partnersip{
+        width: 100%;
+    }
+}

@@ -85,12 +85,12 @@
     grid-template-columns: 1fr 1fr 1fr; */
     gap: 40px;
     display: flex;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 100%;
 }
 
 .pic-house-recommendation .picture-house{
-    width: 100%;
+    width: 340px;
     height: auto;
 
 }
@@ -147,11 +147,36 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 28%;
 }
 
 .recommendation-house-text{
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+@media (max-width:1116px) {
+    .recommendation-head, #recommendation h5{
+        max-width: 94%;
+    }
+    .recommendation-container{
+        margin-left: 3%;
+    }
+    .recommendation-head h2{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:992px) {
+    .recommendation-head{
+        flex-direction: column;
+        gap: 24px;
+    }
+    #recommendation h5{
+        max-width: 100%;
+        text-align: center;
+    }
+    .prev-next-recommendation{
+        gap: 24px;
+    }
 }

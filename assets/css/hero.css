@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.hero-section1{
+    width: 50%;
+}
+
 .title-search{
     position: relative;
 }
@@ -98,6 +102,7 @@
     width: 50%;
     position: relative;
     overflow: hidden;
+    height: fit-content;
 }
 
 .hero-section2-group{
@@ -146,4 +151,39 @@
     top: -200px;
     left: -170px;
     z-index: -2;
+}
+
+
+@media (max-width:1116px) {
+    #hero-section{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .hero-section1{
+        width: 100%;
+    }
+    .title-search{
+        max-width: 94%;
+        padding-top: 0;
+    }
+    .hero-section2{
+        width: 97%;
+        margin-left: 3%;
+        border-radius: 0 0 0 40px;
+    }
+    .hero-background-image img{
+        height: 500px;
+        object-fit: cover;
+    }
+    .hero-section2-group{
+        bottom: 24px;
+        left: 24px;
+    }
+    .title-search h1{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:768px){
+    
 }

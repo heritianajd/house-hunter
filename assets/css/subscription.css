@@ -116,3 +116,16 @@
     right: 56px;
 
 }
+
+@media (max-width:768px) {
+    .subcription-column1{
+        display: none;
+    }
+    .subcription-column3{
+        display: none;
+    }
+
+    .subcription-column2{
+        width: 90%;
+    }
+}
