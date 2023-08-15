@@ -164,17 +164,22 @@ main{
     .review-column{
         gap: 120px;
     }
-    .button-points{
-        /* display: none; */
-    }
 }
 
 @media (max-width:576px) {
     .review-column-text{
-        width: 95%;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
     }
 
     .review-column{
         width: 94%;
+        gap: 40px;
+    }
+    .button-points{
+        display: none;
     }
 }

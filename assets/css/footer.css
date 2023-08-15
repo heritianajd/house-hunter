@@ -112,3 +112,9 @@ footer{
         justify-content: space-between;
     }
 }
+
+@media (max-width:576px) {
+    .hunter-summary p{
+        max-width: 100%;
+    }
+}
