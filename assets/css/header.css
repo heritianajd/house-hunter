@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 body{
@@ -17,25 +18,24 @@ body{
 
 header{
     width: 100%;
-    width: 100%;
+    padding-top: 40px!important;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
-    padding-top: 30px;
 }
+
 header nav{
+    width: 84%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 83%;
-    margin: auto;
     padding: 15px 25px 15px 25px;
     background: #3268813d;
     backdrop-filter: blur(5px);
     border-radius: 50px;
 }
-
 .logo-hunter {
     display: flex;
     align-items: center;
@@ -44,8 +44,65 @@ header nav{
 .logo-hunter h3{
     color: var(--mrt-app-headline, #1B1C57);
     font-size: 16px;
-    line-height: normal;
-    font-family: 'Lexend';
+}
+
+.logo-hunter-menu h3{
+    color: var(--mrt-app-headline, #1B1C57);
+    font-size: 16px;
+}
+
+.logo-hunter-menu{
+    display: none;
+}
+
+.hunter-menu{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.link-menu-hunter{
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    color: var(--neutral-100, #F0F3FD);
+    font-size: 14px;
+}
+.link-menu-hunter:hover{
+    background-color: #79b3cea3;
+}
+.link-menu-hunter:active{
+    background-color: #589cbba3;
+}
+
+.hunter-menu select{
+    padding: 8px 16px;
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+    color: var(--neutral-100, #F0F3FD);
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.hunter-menu select:hover{
+    background-color: #79b3cea3;
+}
+.hunter-menu select:active{
+    background-color: #589cbba3;
+}
+
+.hunter-menu li{
+    list-style: none;
+}
+
+.toggle{
+    display: none;
+}
+.toggle img{
+    width: 24px;
+    height: 24px;
 }
 
 .toggle{
@@ -59,65 +116,23 @@ header nav{
     background: #F0F3FD;
 }
 
-.hunter-menu{
-    display: flex;
-    gap: 24px;
-    align-items: center;
-}
-.hunter-menu li{
-    list-style: none;
-}
-
-.hunter-menu li a{
-    padding: 8px 16px;
-    border-radius: 32px;
-    border: 1px solid rgba(255, 255, 255, 0.30);
-    background: rgba(255, 255, 255, 0.10);
-    color: var(--neutral-100, #F0F3FD);
-    font-size: 14px;
-    line-height: normal;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-
-.hunter-menu select{
-    padding: 8px 16px;
-    border-radius: 32px;
-    border: 1px solid rgba(255, 255, 255, 0.30);
-    background: rgba(255, 255, 255, 0.10);
-    color: var(--neutral-100, #F0F3FD);
-    font-size: 14px;
-    line-height: normal;
-    text-transform: capitalize;
-}
-
-.hunter-menu select:hover{
-    cursor: pointer;
-}
-
 .sign-button a{
     background: var(--green-100, #D1FAE5)!important;
     padding: 12px 24px!important;
     color: var(--green-700, #047857)!important;
     line-height: 22px!important;
     margin-left: 32px;
+    border-radius: 32px;
+    text-decoration: none;
+    font-size: 14px;
 }
 
-.toggle{
-    display: none;
+.sign-button a:hover{
+    background-color: #d8e7e0!important;
 }
-
-.title-search h1{
-    color: var(--mrt-app-headline, #1B1C57);
-    font-family: 'Lexend';
-    font-size: 40px;
+.sign-button a:active{
+    background-color: #a8e7ca!important;
 }
-
-.toggle img{
-    width: 24px;
-    height: 24px;
-}
-
 @media (max-width:1116px){
     header nav{
         width: 95%;
@@ -125,77 +140,73 @@ header nav{
 }
 
 @media (max-width:992px) {
+    header{
+        padding-top: 14px!important;
+    }
+    header nav{
+        padding: 10px 18px 10px 18px;
+    }
+    .logo-hunter-menu{
+        display: block;
+        display: flex;
+        align-items: center;
+        padding: 24px;
+        border-bottom: 1px solid #FFFF;
+        gap: 12px;
+    }
     .toggle{
         display: block;
         cursor: pointer;
         position: relative;
         z-index: 20;
     }
-
-    .logo-hunter{
-        position: relative;
-        z-index: 20;
-    }
-
     .open-menu{
         display: block;
     }
-
     .close-menu{
         display: none;
     }
-
     .open .open-menu{
         display: none;
     }
     .open .close-menu{
         display: block;
     }
-
-    .hunter-menu{
+    
+    .hunter-header-left{
         position: absolute;
-        /* top: 0; */
-        top: -30px;
+        top: 0;
         right: 0;
-        width: 100%;
-        height: 105vh;
+        height: 100vh;
+        display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        transform: translateX(110%);
+        transform: translateX(120%);
+        background: #3268813d!important;
+        backdrop-filter: blur(5px)!important;
         transition: transform 0.5s;
-        background: #3268813d;
-        backdrop-filter: blur(5px);
+        width: 400px;
     }
-
-    .open .hunter-menu{
+    .hunter-menu{
+        flex-direction: column;
+        align-items: start;
+        gap: 50px;
+        padding: 24px;
+    }
+    .open .hunter-header-left{
         transform: translateX(0);
-        height: 105vh;
-        padding-top: 30px;
-    }
-
-    .sign-button a{
-        margin-left: 0;
-    }
-    .hunter-menu li a{
-        background: #3268813d;
-    }
-
-    .hunter-menu select{
-        background: #3268813d;
     }
 
     .open header nav{
-        background: none;
-        backdrop-filter: none;
+        background: none!important;
+        backdrop-filter: none!important;
     }
-
-    .open header{
-        /* height: 100vh;
-        background: #3268813d;
-        backdrop-filter: blur(5px); */
+    .sign-button a{
+        margin-left: 0;
     }
 }
 
-@media (max-width: 768px) {
-
+@media (max-width:576px) {
+    .hunter-header-left{
+        width: 300px;
+    }
 }
