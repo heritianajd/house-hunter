@@ -177,11 +177,11 @@ header nav{
         position: absolute;
         top: 0;
         right: 0;
-        height: 100vh;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         transform: translateX(120%);
-        background: #3268813d!important;
+        background: #326881c9!important;
         backdrop-filter: blur(5px)!important;
         transition: transform 0.5s;
         width: 400px;
@@ -190,7 +190,7 @@ header nav{
         flex-direction: column;
         align-items: start;
         gap: 50px;
-        padding: 24px;
+        padding: 24px 24px 40px 24px;
     }
     .open .hunter-header-left{
         transform: translateX(0);
